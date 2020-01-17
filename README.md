@@ -59,7 +59,7 @@ def index():
     return render_template('index.html')
 ```
 
-All_samples function returns meta data from a csv and feeds it as a list of dictionaries to the jinja template "sample.html".
+All_samples function returns meta data and feeds it as a list of dictionaries to the jinja template "sample.html".
 ```
 @app.route('/sample')
 @login_required
